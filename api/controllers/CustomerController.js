@@ -10,7 +10,7 @@ module.exports = {
       firstName:param.firstName,
       lastName:param.lastName,
       phone:param.phone,
-      address:param.address,
+      address:param.addresses,
       email:param.email
     };
     await Customer.create(obj)

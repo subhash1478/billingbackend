@@ -27,7 +27,8 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
-  'POST /api/create-invoice': 'InvoiceController.createInvoice'
+  'POST /api/create-invoice': 'InvoiceController.createInvoice',
+  'POST /api/create-customer': 'CustomerController.createCustomer'
 
 
 
